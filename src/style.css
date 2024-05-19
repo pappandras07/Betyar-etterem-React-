@@ -1,0 +1,250 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #e40606;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  .cim {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+.etlap section{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.etlapkep figure img{
+width: 400px;
+border-radius: 50%;
+}
+figcaption{
+    font-weight: bold;
+}
+.ar{
+   background-color: black;
+    color: white;
+    background-size: 50%;
+}
+.kategoria{
+text-align: center;
+background-color: white;
+font-size: xx-large;
+font-style: italic;
+font-weight: bolder;
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: green;
+    color: #fff;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 200px;
+}
+
+.kontakt, .nyitvatartas, .extrak {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.extrak {
+    margin-right: 0;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.number-select {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: x-large;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input,select,button{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+button{
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.fooldalkep1 {
+  background-image: url(C:\Users\ASUS\my-react-app2\public\images\fooldal.png);
+  background-size: 80% auto;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fooldalkep2{
+  background-image: url(C:\Users\ASUS\my-react-app2\public\images\1440x0.webp);
+  background-size: 80% auto;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.szoveg1,.szoveg2,.szoveg3 {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family:fantasy;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.szoveg2{
+  margin-top: 330px;
+}
+.szoveg3{
+  padding-top: 30px;
+}
+.fooldalbody{
+  background-color: white;
+}
+.etlap_gomb,.asztal_gomb {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.5;
+  width: 150px;
+}
+.asztal_gomb{
+  margin-top: 370px;
+}
+
+.etlap_gomb:hover,.asztal_gomb:hover {
+  background-color: #45a049;
+}
+
+.main {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button button:hover {
+  background-color: #45a049;
+}
+
+.list-foglalasok table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-foglalasok th, .list-foglalasok td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.list-foglalasok th {
+  background-color: #f2f2f2;
+}
+
+.list-foglalasok tr:hover {
+  background-color: #f2f2f2;
+}
+
+
